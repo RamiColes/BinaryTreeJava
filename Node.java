@@ -1,14 +1,18 @@
-
+/**
+ * 
+ * @author Rami Coles
+ * This class represents a node of the tree. It can have a left child and a right child
+ * and stores and integer.
+ */
 public class Node {
 	private int value;
+	//Each nodes starts with no children which can be added with the use of the BinaryTree class.
 	private Node leftChild = null;
 	private Node rightChild = null;
 
 	
 	public Node(int value) {
 		this.value = value;
-		this.leftChild = leftChild;
-		this.rightChild = rightChild;
 	}
 	
 	public void addLeftChild(int value) {
